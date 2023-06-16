@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  #loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  #loading img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    overflow: hidden;
+    background-color: #1abc9c;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul.topnav li a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  .pagina1 {
+    width: 100%;
+    height: 700px;
+    border-radius: 1px;
+    background-color: rgba(174, 184, 184, 0.65);
+
+  }
+  .blocoA{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-right: 300px;
+    width:400px;
+    height: 150px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    color: #218b76;
+  }
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .formulario {
+    margin-top: 25px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    border-style:inherit;
+    margin-right: 100px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #218b76;
+  }
+  h4{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-left: 55px;    
+    font-size: 20px;    
+    color: #218b76;
+  }
+  .entrada {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],input[type="password"]{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    transition: border-bottom-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-bottom-color: #1abc9c;
+  }
+  
+  button[type="submit"] {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 125px;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #148f77;
+  }
+.link_acess{
+  margin-top: -21px;
+}
+
+.link{
+  justify-content: center;
+  display: flex;
+  margin-left: 250px;
+}
+
+  p{
+      color: #ffffff;
+      font-size: 1.5em;
+      margin-top: 25px;
+      margin-left: 70px ;
+  }
+  .formulario label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+  }
+ 
+  .bloco_texto{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width: 820px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #148f76df;
+    border-style:inherit;
+    border-radius: 5px;
+    border-color: #696c6c;
+  }
+  h3{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    font-size: 22px;
+    color: #ffffff;
+
+  }
+  .bloco {
+    width: 1350px;
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 25px; ;
+    overflow: hidden;
+  }
+  .carrossel {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    transition: all 1s ease;
+  }
+
+.bloco_1,.bloco_2,.bloco_3,.bloco_4,.bloco_5,.bloco_6,.bloco7{
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+.bloco_1{
+  margin-left:1000px;
+}
+.bloco1,.bloco_2,.bloco_3,.bloco_4,.bloco_5,.bloco_6{
+  margin-right: 100px;
+  margin-left: 100px;
+  width: 50px;
+  height: 50px;
+  padding: 75px;
+}
+
+.bloco_2{
+  margin-top: 25px;
+  background-image: url("logo1.jpg");
+  background-position: center center ;
+  background-size: cover;
+} 
+.bloco_3{
+  background-color: #0e79a41f;
+  background-image: url("logo2.jpg");
+  background-position: center left ;
+  background-size: cover;
+}
+.bloco_4{
+  margin-top: 35px;
+  width: 120px;
+  height: 50px;
+  background-image: url("logo3.png");
+  background-position: center left;
+  background-size: cover;
+  padding: 55px;
+}
+.bloco_5{
+  width: 90px;
+  height: 50px;
+  padding: 75px;
+  border-radius: 200%;
+  background-color: #436bd7ea;
+  background-image: url("logo4.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bloco_6{
+  border-radius: 100px;
+  background-color: #0e79a41f;
+  background-image: url("logo5.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bloco7{
+  width: 50px;
+  height: 50px;
+  padding: 90px;
+  border-radius: 100px;
+  background-image: url("logo6.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.anterior,.proximo{
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  border: none;
+  background-color: #ffffff00;
+  cursor:pointer;
+
+}
+.anterior:hover,.proximo:hover{
+  background-color: #148f77;
+  border-radius: 100px;
+  transition: background-color 0.3s;
+
+}
+.anterior{
+  background-image: url("https://img.icons8.com/ios/50/null/left--v1.png");
+}
+.proximo{
+  margin-top: 30px;
+  background-image: url("https://img.icons8.com/ios/50/null/right--v1.png");
+}
+  @media only screen and (max-width: 1000px) {
+    .bloco_texto {
+      display: none;
+    }
+  }
+
+.page_video{
+  justify-content: center;
+  display: flex;
+  margin: auto ;
+  width: 100%;
+  height: 700px;
+  margin-top: 10px;
+  background-color: #148f77;
+}
+.bloco_video{
+  justify-content: center;
+  display: flex;
+  margin: auto ;
+  width: 700px;
+  margin-top: 150px;
+  height: 500px;
+
+}
+.voltar{
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  cursor: pointer;
+  margin-right: 70px;
+  margin-top: -100px;
+  border: none;
+  border-radius: 75px;
+  width: 50px;
+  height: 50px;
+  background-image: url("https://img.icons8.com/ios/50/null/right-up2.png");
+}
+.voltar:hover{
+  background-color:#148f77;
+  transition: 0.3s;
+
+}
+@media screen and (max-width: 768px) {
+  .pag_sobre/*.output*/ {
+      width: 90%;
+      max-width: 500px;
+      margin: 35px auto;
+  }
+  .blocoA{
+    width: 100px;
+    margin: -100%;
+  }.bloco_video{
+    width: 400px;
+    height: 400px;
+  }
+}

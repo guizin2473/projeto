@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troca de senha</title>
+    <link rel = "stylesheet" type="text/css" href = "style4.css">
+    <link rel = "icon" href="eco.png" sizes="16x16" type="image/png">
+
+</head>
+<body>
+    <ul class="topnav">
+        <li><a href="dados.php">Pagina Inicial</a></li>
+        <li><a href="dados.php">Sobre</a></li>
+        <li><a href="dados.php">Institucional</a></li>
+    </ul>
+    <div class="pagina1">
+        <div class ="pagina_login">
+            <div class ="login">
+                <form action="dados_troca.php" class ="formulario" method="POST">
+                    <h3>Cadastre uma nova senha</h3>
+
+                    <div class="entrada">
+                        <label for = "email"></label>
+                        <input type = "email" id="email" name="email" placeholder="Email" required>
+                    </div>
+            
+                    <div class="entrada">
+                        <label for = "password"></label>
+                        <input type = "password" id = "nova_pass" name = "pass" minlength = "8" placeholder ="Nova Senha" required>
+                    </div>
+                
+                    <div class = "entrada">
+                        <label for = "password"></label>
+                        <input type = "password" id = "pass" name = "pass" minlength = "8" placeholder ="Confirme Senha" required>
+                    </div>
+
+                
+                    <label for ="mostrar">
+                        <input type = "checkbox" id ="mostra">Mostrar Senha 
+                    </label>
+                
+                
+                    <button type = "submit" id = "send" name = "acao" value ="Enviar">Enviar</button>
+                
+                </form>
+
+            </div>
+        </div>
+        </div>
+    
+    </div>
+    <script src = "script4.js" ></script>
+
+</body>
+</html>

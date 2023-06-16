@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href = "style2.css">
+    <link rel = "icon" href="eco.png" sizes="16x16" type="image/png">
+
+    <title>Calcule sua pegada de carbono
+    </title>
+</head>
+<ul class="topnav">
+    <li><a href="index.html">Pagina Inicial</a></li>
+    <li><a href="index.html">Sobre</a></li>
+    <li><a href="index.html">Institucional</a></li>
+</ul>
+<div class="pagina">
+  <div class="pagina_form">
+      <form class="pagina_formulario">
+          <h2>Calcule sua pegada de carbono</h2>
+          <div class="campo1">
+              <label>Consumo aproximado de eletricidade por mês:</label>
+          </div>
+          
+          <div class="campo2">
+              <label> Quantas vezes come carne vermelha na semana:</label>
+          </div>
+          <div class="campo3">
+              <label> Consumo de gás por mês:</label>
+          </div>
+          <div class="campo_radio">
+              <legend>Qual transporte mais utilizado na semana? </legend>
+              <select class="escolhido">
+                  <option value="1">Ônibus</option>
+                  <option value="2">Carro</option>
+                  <option value="3">Moto</option>
+                  <option value="4">Outros</option>
+              </select>      
+          </div>
+              <button type="submit" id="botao">Enviar</button>
+          </form>
+  </div>
+
+  <div  id="resultado" style="display: none;"></div>
+    
+  <div class="bloco"  style="display: none;">  
+    <div id="solucoes"  style="display: none;"></div>
+    <div id = "img1"></div>
+  </div>
+
+  <div class="bloco2"  style="display: none;">   
+    <div id = "solucoes2" style="display: none;"></div>
+    <div id="img2"></div>
+  </div>
+
+  <div class="bloco3"  style="display: none;"> 
+    <div id="solucoes3" style="display: none;"></div>
+    <div id="img3"></div>
+  </div>
+
+  <div class="bloco4"  style="display: none;"> 
+    <div id="solucoes4" style="display: none;"></div>
+    <div id="img4"></div>
+  </div>
+
+  <div id ="blocosobre" >
+    <div id ="bloco_texto">
+        <h1>Consumo de carne e meio ambiente</h1>
+        <div class="videoC">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/FqSasnpaokc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+  </div>
+
+  <div id ="blocosobre2" >
+    <div id ="bloco_texto2">
+        <h1>Ajude seu bolso e o meio ambiente !! </h1>
+        <div class="lista">
+          <ul>
+            <li>Utilize lâmpadas de LED: Substitua as lâmpadas incandescentes por lâmpadas de LED, pois elas consomem menos energia e têm uma vida útil mais longa.</li></br>
+            <li>Desligue os aparelhos eletrônicos quando não estiverem em uso: Evite deixar aparelhos em modo de espera (stand-by) e desligue-os completamente quando não estiverem sendo utilizados.</li></br>
+            <li>Utilize eletrodomésticos eficientes: Ao comprar eletrodomésticos novos, opte por modelos com classificação energética A ou superior. Esses aparelhos são mais eficientes em termos de consumo de energia.</li></br>
+            <li>Faça uma revisão da fatura de luz: Verifique se os valores cobrados em sua conta de luz estão corretos e se não há erros ou cobranças indevidas.</li></br>
+            <li>Desligue as luzes ao sair dos ambientes: Certifique-se de desligar as luzes sempre que sair de um cômodo, mesmo que seja por um curto período.</li></br>
+
+          </ul>
+        </div>
+    </div>
+  </div>
+
+  <div id ="blocosobre3" >
+    <div id ="bloco_texto3">
+        <h1>Reduza emissões de carbono</h1>
+        <div class="lista">
+          <ul>
+            <li>Opte por um veículo eficiente em consumo de combustível, como um carro híbrido, elétrico ou de baixo consumo. Isso reduzirá as emissões de carbono durante a condução.</li></br>
+            <li>Faça a manutenção regular do seu carro, incluindo troca de óleo, limpeza dos filtros de ar e verificação dos pneus. Um veículo bem mantido é mais eficiente em consumo de combustível e emite menos carbono.</li></br>
+            <li>Utilize o transporte público, compartilhe carros ou participe de programas de caronas. Isso reduz o número de veículos nas estradas, diminuindo as emissões de carbono.</li></br>
+          </ul>
+        </div>
+
+        <div class="video3">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/2xmhg49kOUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+  </div>
+
+  <div id ="blocosobre4" >
+    <div id ="bloco_texto4">
+        <h1>Plante um árvore</h1>
+        <h2 class="h2">Doe para ONGS de reflorestamento</h2>
+        <div class="lista2">
+          <ul>
+            <li><a href= "https://doe.wwf.org.br/manifesto?utm_source=google&utm_medium=cpc&utm_campaign=2022_abr_olivasdigital_search_manifesto_doacao_cpc&utm_content=2022_abr_olivasdigital_search_manifesto_doacao_cpc_-_google_ambiente_-_search_doe&gclid=CjwKCAjw36GjBhAkEiwAKwIWycz-v4jf1zLc77Vz8D9rHPcbVyfBaDphpP2jqpf0_EGs7VtNRQSYrxoCS6YQAvD_BwE">WWF Manifetso</a></li>
+            <li><a href="https://www.arbosolucoes.com.br/?gclid=CjwKCAjw36GjBhAkEiwAKwIWyRAx70ou33k6BndHopoVTFJLpYMY3RHFE4HckZlVW1lNdKJkumEnlBoCAscQAvD_BwE"> ARBO</a></li>
+            <li><a href="https://www.tnc.org.br/o-que-fazemos/nossas-iniciativas/restaura-brasil/?utm_source=google&utm_medium=cpc&utm_campaign=GeralRestauraBrasil_GeralRestaura_Ads01&utm_id=Hubify&gclid=CjwKCAjw36GjBhAkEiwAKwIWyQgF1Oz0D1p-B2FopedGhnxXmNOBEjYqM4lQcoV2KdsGODal58FGSRoC4CwQAvD_BwE">THE NATURE CONSERVANCY</a></li>
+            <li><a href="https://www.gamba.org.br/instituicao/quem-somos">GAMBÁ</a></li>
+          </ul>
+        </div>
+        <h2 class="h2_2">ou faça você mesmo</h2>
+
+        <div class="videoY">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ekgc0WV8NI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p class="linkmais"><a href ="https://www.youtube.com/playlist?list=PLc41AE-JKjqqZ0UUAOnvN6m0eExUEy27i">Outras iniciativas </a></p>
+    </div>
+  </div></div>
+<script src="script2.js"></script>
+
+</body>
+</html>

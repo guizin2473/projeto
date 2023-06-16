@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href="eco.png" sizes="16x16" type="image/png">
+
+    <link rel="stylesheet" type="text/css" href="style4.css">    
+    <title>Login</title>
+</head>
+<body>
+    <ul class="topnav">
+        <li><a href="#pag">Pagina Inicial</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#pag_video">Institucional</a></li>
+    </ul>
+    
+    <div class="pagina1">
+        <div class="pagina_login">
+          <div class="login">
+            <form action="dados_login.php" class="formulario" method="POST">
+                <h1>LOGIN</h1>
+
+                <div class="entrada">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Seu melhor email" required>
+                </div>
+
+                <div class="entrada">
+                    <label for="password"></label>
+                    <input type="password" id="pass" name="pass" minlength="8" placeholder="Senha" required>
+                </div>
+                
+                <a href="esqpass.html">
+                    <div class="link_acess">Nova senha</div>
+                </a>
+                <button type="submit" id="send" name="acao" value="Enviar">Enviar</button>
+            </form> 
+        </div>
+    </div>
+</div>
+
+
+
+<script src="script3.js"></script>
+
+</body>
+</html>
