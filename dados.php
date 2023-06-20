@@ -8,9 +8,9 @@
                 
                 // variaveis de conxeão
                 $servername = "localhost";
-                $username = "root";
-                $password = "";
-                $dbname = "banco_teste";
+                $username = "526160";
+                $password = "guigiugi3987";
+                $dbname = "526160";
             
                 $nome = $_POST["nome"];
                 $email = $_POST["email"];
@@ -26,7 +26,7 @@
                 }
                 
                 // Consulta SQL
-                $sql = "SELECT * FROM cadastro WHERE email = '$email'";
+                $sql = "SELECT * FROM teste WHERE email = '$email'";
                 
                 $resultado = mysqli_query($conn, $sql); 
             
@@ -37,7 +37,7 @@
                 
                     // Senha criptografada 
                     $senhaHASH = hash('md5',$senha);
-                    $sql = "INSERT INTO cadastro (nome,senha,email,telefone) VALUES ('$nome','$senhaHASH','$email','$cell')";
+                    $sql = "INSERT INTO teste (nome,senha,email,telefone) VALUES ('$nome','$senhaHASH','$email','$cell')";
                     if(mysqli_query($conn,$sql)){
                         echo("\n\n Dados cadastrados com sucesso");
                     }//
